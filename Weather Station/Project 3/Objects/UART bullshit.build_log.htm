@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeff Cron, University of Evansville, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\aa472\Desktop\Sad UART\UART bullshit\UART bullshit\UART bullshit.uvprojx
+Project File Date:  04/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling UART.c...
+stml432kc.h(178): warning:  #1-D: last line of file ends without a newline
+  #define USART_ICR_TTCF 1 << 6
+UART.c(11): warning:  #1295-D: Deprecated declaration USART1_Init - give arg types
+  void USART1_Init();
+UART.c(14): warning:  #1295-D: Deprecated declaration GPIOA_Init - give arg types
+  void GPIOA_Init();
+UART.c(16): warning:  #1295-D: Deprecated declaration ADC_Init - give arg types
+  void ADC_Init();
+UART.c(18): warning:  #1295-D: Deprecated declaration delay_msec - give arg types
+  void delay_msec();
+UART.c(19): warning:  #1295-D: Deprecated declaration delay_sec - give arg types
+  void delay_sec();
+UART.c(20): warning:  #1295-D: Deprecated declaration delay_min - give arg types
+  void delay_min();
+UART.c(21): warning:  #1295-D: Deprecated declaration delay_15min - give arg types
+  void delay_15min();
+UART.c(23): warning:  #1295-D: Deprecated declaration get_humidity - give arg types
+  float get_humidity();
+UART.c(24): warning:  #1295-D: Deprecated declaration get_light - give arg types
+  float get_light();
+UART.c(25): warning:  #1295-D: Deprecated declaration get_temperature - give arg types
+  float get_temperature();
+UART.c(26): warning:  #1295-D: Deprecated declaration get_moisture - give arg types
+  float get_moisture();
+UART.c(27): warning:  #1295-D: Deprecated declaration I2C1_Init - give arg types
+  void I2C1_Init(); 
+UART.c(28): warning:  #1295-D: Deprecated declaration I2C1_Stop - give arg types
+  void I2C1_Stop();
+UART.c(29): warning:  #1295-D: Deprecated declaration I2C1_WaitLineIdle - give arg types
+  void I2C1_WaitLineIdle();
+UART.c(32): warning:  #1295-D: Deprecated declaration setup_table - give arg types
+  void setup_table();
+UART.c(33): warning:  #1295-D: Deprecated declaration ChangeChannel - give arg types
+  void ChangeChannel();
+UART.c(111): warning:  #111-D: statement is unreachable
+        return 0;
+UART.c(49): warning:  #177-D: variable "j" was declared but never referenced
+        unsigned long int i,j;
+UART.c(115): warning:  #177-D: variable "ready" was declared but never referenced
+        unsigned char ready[5];
+UART.c(122): warning:  #177-D: variable "value" was declared but never referenced
+        unsigned char value[5] = "Value";
+UART.c(173): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        temperatureValue = -46.85 + 168.5*(temperatureValue/(65536));
+UART.c(222): warning:  #61-D: integer operation result is out of range
+        
+VIC_ISER0 |= (1<<31); //I2C1 interrupt initialize
+UART.c(222): warning:  #68-D: integer conversion resulted in a change of sign
+        
+VIC_ISER0 |= (1<<31); //I2C1 interrupt initialize
+UART.c(231): warning:  #68-D: integer conversion resulted in a change of sign
+        
+SART1_CR1 &= ~
+SART_CR1_UE;
+UART.c(236): warning:  #68-D: integer conversion resulted in a change of sign
+        
+SART1_CR1 &= ~
+SART_CR1_M0;
+UART.c(237): warning:  #68-D: integer conversion resulted in a change of sign
+        
+SART1_CR1 &= ~
+SART_CR1_M1;
+UART.c(243): warning:  #68-D: integer conversion resulted in a change of sign
+        
+SART1_CR2 &= ~
+SART_CR2_STOP;
+UART.c(252): warning:  #68-D: integer conversion resulted in a change of sign
+        
+SART1_CR1 &= ~
+SART_CR1_OVER8;
+UART.c(346): warning:  #223-D: function "sprintf" declared implicitly
+        sprintf(message, "%.2f", value);
+UART.c(347): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+        USART1_Write(message, strlen(message));
+UART.c(358): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(359): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(360): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(362): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(371): warning:  #61-D: integer operation result is out of range
+        
+UART.c(379): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(381): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(384): warning:  #68-D: integer conversion resulted in a change of sign
+        
+UART.c(402): warning:  #68-D: integer conversion resulted in a change of sign
+                tmpreg &= ~
+UART.c(435): warning:  #550-D: variable "Recieved_Address" was set but never used
+        char Recieved_Address; 
+UART.c(483): warning:  #1-D: last line of file ends without a newline
+  }
+UART.c: 42 warnings, 0 errors
+linking...
+.\Objects\UART bullshit.axf: Warning: L6988W: Ignoring unknown patch sdcomp-29491-629360.
+Program Size: Code=9136 RO-data=604 RW-data=32 ZI-data=1664  
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\UART bullshit.axf" - 0 Error(s), 43 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM::CMSIS:CORE:5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.2.0.pack
+                Keil::Device:Startup:1.3.1
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\aa472\Desktop\Sad UART\UART bullshit\UART bullshit\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:1.3.1
+      Source file:   MDK\Device\Source\ARM\STM32L4xx_SB_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\arm\startup_stm32l432xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\system_stm32l4xx.c
+</pre>
+</body>
+</html>

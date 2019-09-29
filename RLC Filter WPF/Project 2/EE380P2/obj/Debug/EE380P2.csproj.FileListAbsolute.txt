@@ -1,0 +1,16 @@
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.csprojAssemblyReference.cache
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\MainWindow.g.cs
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\App.g.cs
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2_MarkupCompile.cache
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2_MarkupCompile.lref
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\bin\Debug\EE380P2.exe.config
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\bin\Debug\EE380P2.exe
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\bin\Debug\EE380P2.pdb
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\MainWindow.baml
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.g.resources
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.Properties.Resources.resources
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.csproj.GenerateResource.cache
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.exe
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.pdb
+C:\Users\Abdullah Aljandali\Desktop\EE380P2\EE380P2\EE380P2\obj\Debug\EE380P2.Resource1.resources
